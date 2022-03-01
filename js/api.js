@@ -58,6 +58,7 @@ const loadDetailsFromApi = (details) => {
     document.getElementById('display-details').style.display = 'block';
     const div = document.createElement('div');
     div.innerHTML = `<div class="">
+    <h2>Mobile Details</h2>
     <img src="${details.image}" class="card-img-top w-25 mx-auto pt-4" alt="...">
     <div class="card-body">
       <h3 class="card-title">${details.name}</h3>
