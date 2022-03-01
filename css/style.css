@@ -1,0 +1,18 @@
+.noResult-message{
+    display: none;
+    color:darkred;
+    width: 50%;
+    text-align: center;
+}
+.details{
+    color:whitesmoke;
+    font-size: medium;
+    text-align: center;
+    background-color:mediumseagreen;
+}
+.display-details{
+    display:none;
+    width: 100%;
+   padding:10px;
+   margin:20px;
+}

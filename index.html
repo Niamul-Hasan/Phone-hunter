@@ -12,6 +12,7 @@
 </head>
 <body>
     <main>
+        <!-- search field section  -->
       <div class="text-center container">
           <h2 class="text-success">Mobile Picker</h2>
           
@@ -19,8 +20,24 @@
     <input id="search-field" type="text" class="w-50" placeholder="Search your mobile here" aria-label=" " aria-describedby=" ">
     <button onclick="loadSearchValue()" class="btn btn-outline-secondary" type="button" id="search-btn">Search</button>
   </div>
+      </div> 
+      <!-- error display section   -->
+      <div id="noResult-message" class="container noResult-message">
+        Sorry...NO result found
+      </div>
+      <!-- details section  -->
+     
+      <div class="container">
+          <div id="display-details" class="display-details">
 
-      </div>  
+          </div>
+      </div>
+      <!-- card section  -->
+      <div class="container">
+        <div id="mobile-display" class="row row-cols-1 row-cols-md-3 g-4">
+            
+            </div>
+      </div>
     </main>
     <!-- bootstrap js bundle link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
