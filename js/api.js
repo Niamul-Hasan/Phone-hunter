@@ -52,7 +52,6 @@ const displayDetails = (mobileId) => {
 //loading mobile details by id
 const loadDetailsFromApi = (details) => {
 
-  console.log(details);
   const detailsContainer = document.getElementById('display-details');
   detailsContainer.textContent = '';
   document.getElementById('display-details').style.display = 'block';
