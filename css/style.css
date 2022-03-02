@@ -1,18 +1,23 @@
+
+/* custom style for container class  */
 .container{
     padding-top: 10px;
 }
+/* style for no result message  */
 .noResult-message{
     display: none;
     color:darkred;
     width: 50%;
     text-align: center;
 }
+/* style for details button  */
 .details{
     color:whitesmoke;
     font-size: medium;
     text-align: center;
     background-color:mediumseagreen;
 }
+/* style for detail display div  */
 .display-details{
     display:none;
     width: 100%;
